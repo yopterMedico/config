@@ -7,8 +7,8 @@ spring:
   datasource:
     type: com.zaxxer.hikari.HikariDataSource
     url: jdbc:oracle:thin:@//52.87.1.4:1521/dbpres
-    username: Dinere
-    password: 'YH34tJ'
+    username: DEVYHS
+    password: 'Ax440tzBkV64'
     driver-class-name: oracle.jdbc.OracleDriver
     hikari:
       minimum-idle: 1
