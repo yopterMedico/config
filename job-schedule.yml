@@ -1,0 +1,64 @@
+spring:
+  jpa:
+    generate-ddl: true
+  profiles: cloud
+server:
+  port: 0
+eureka:
+  instance:
+    leaseRenewalIntervalInSeconds: 1
+    leaseExpirationDurationInSeconds: 2
+    instanceId: ${spring.application.name}:${vcap.application.instance_id:${spring.application.instance_id:${random.value}}}
+management:
+  health:
+    elasticsearch:
+      enabled: false
+    mail:
+      enabled: true
+
+---
+spring:
+  jpa:
+    generate-ddl: true
+  profiles: pre
+server:
+  port: 0
+eureka:
+  instance:
+    leaseRenewalIntervalInSeconds: 1
+    leaseExpirationDurationInSeconds: 2
+    instanceId: ${spring.application.name}:${vcap.application.instance_id:${spring.application.instance_id:${random.value}}}
+management:
+  health:
+    elasticsearch:
+      enabled: false
+    mail:
+      enabled: false
+      
+---
+
+spring:
+  jpa:
+    generate-ddl: true
+  profiles: dev
+
+server:
+  port: 0
+eureka:
+  instance:
+    leaseRenewalIntervalInSeconds: 1
+    leaseExpirationDurationInSeconds: 2
+    instanceId: ${spring.application.name}:${vcap.application.instance_id:${spring.application.instance_id:${random.value}}}
+
+---
+spring:
+  jpa:
+    generate-ddl: true
+  profiles: test
+server:
+  port: 0
+eureka:
+  instance:
+    leaseRenewalIntervalInSeconds: 1
+    leaseExpirationDurationInSeconds: 2
+    instanceId: ${spring.application.name}:${vcap.application.instance_id:${spring.application.instance_id:${random.value}}}
