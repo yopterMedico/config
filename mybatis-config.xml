@@ -24,6 +24,6 @@
         </environment>
     </environments>
     <mappers>
-        <mapper class="com.msha.ApiTest.domain.UserMapper"/>
+        <mapper class="com.msha.ApiTest.mapper.UserMapper"/>
     </mappers>
 </configuration>
