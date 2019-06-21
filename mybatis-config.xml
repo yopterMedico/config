@@ -13,16 +13,18 @@
                 <property name="password" value="Ax440tzBkV64"/>
             </dataSource>
         </environment>
+            
         <environment id="preproduccion">
             <transactionManager type="JDBC"/>
             <dataSource type="POOLED">
                 <property name="driver" value="oracle.jdbc.OracleDriver"/>
                 <property name="url" value="jdbc:oracle:thin:@//52.87.1.4:1521/dbpres"/>
                 <property name="username" value="DEVYHS"/>
-                <property name="password" value="Ax440tzBkV64"/>
+                <property name="password" value="Ax440tzBkV"/>
             </dataSource>
         </environment>
     </environments>
+        
     <mappers>
         <mapper class="com.msha.ApiTest.mapper.UserMapper"/>
     </mappers>
