@@ -23,7 +23,7 @@ eureka:
     preferIpAddress: true
   client:
     serviceUrl:
-      defaultZone: http://127.0.0.1:8762/eureka/
+      defaultZone: http://127.0.0.1:8761/eureka/
 serverExternal:
   yopter: http://localhost:9998
      
@@ -52,6 +52,6 @@ eureka:
     preferIpAddress: true
   client:
     serviceUrl:
-      defaultZone: http://127.0.0.1:8762/eureka/
+      defaultZone: http://127.0.0.1:8761/eureka/
 serverExternal:
   yopter: http://localhost:9998
