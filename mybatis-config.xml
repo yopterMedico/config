@@ -26,7 +26,6 @@
     </environments>
         
     <mappers>
-        <mapper class="com.msha.ApiTest.mapper.UserMapper"/>
         <mapper class="com.yhs.paciente.mapper.PacienteMapper"/>
     </mappers>
 </configuration>
