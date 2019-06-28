@@ -27,6 +27,6 @@
         
     <mappers>
         <mapper class="com.yhs.paciente.mapper.PacienteMapper"/>
-        <mapper class="com.yhs.paciente.consulta.mapper.PacienteMapper"/>
+        <mapper class="com.yhs.paciente.consulta.mapper.PacienteConsultaMapper"/>
     </mappers>
 </configuration>
