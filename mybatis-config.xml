@@ -26,7 +26,7 @@
     </environments>
         
     <mappers>
-           <mapper class="com.yhs.paciente.mapper.PacienteMapper"/>
-           <mapper class="com.yhs.paciente.consulta.mapper.PacienteConsultaMapper"/>
+            <package name="com.yhs.paciente.mapper"/>
+            <package name="com.yhs.paciente.consulta.mapper"/>
     </mappers>
 </configuration>
