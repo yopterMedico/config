@@ -26,8 +26,8 @@
     </environments>
         
     <mappers>
-            <package name="com.yhs.paciente.mapper"/>
-            <package name="com.yhs.paciente.consulta.mapper"/>
+            <package name="com.yhs.patient.mapper"/>
+            <package name="com.yhs.patient.query.mapper"/>
             <package name="com.yhs.record.patient.mapper"/>
             
     </mappers>
