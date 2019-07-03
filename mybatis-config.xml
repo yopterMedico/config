@@ -31,5 +31,6 @@
             <package name="com.yhs.record.patient.mapper"/>
             <package name="com.yhs.gender.mapper"/>
             <package name="com.yhs.gender.query.mapper"/>
+            <package name="com.yhs.kin.mapper"/>
     </mappers>
 </configuration>
