@@ -29,6 +29,6 @@
             <package name="com.yhs.patient.mapper"/>
             <package name="com.yhs.patient.query.mapper"/>
             <package name="com.yhs.record.patient.mapper"/>
-            
+            <package name="com.yhs.gender.mapper"/>
     </mappers>
 </configuration>
