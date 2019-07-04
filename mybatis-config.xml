@@ -29,6 +29,8 @@
             <package name="com.yhs.patient.mapper"/>
             <package name="com.yhs.patient.query.mapper"/>
             <package name="com.yhs.record.patient.mapper"/>
+            <package name="com.yhs.advice.mapper"/>
+            <package name="com.yhs.health.tip.mapper"/>
             <package name="com.yhs.user.query.mapper"/>
     </mappers>
 </configuration>
