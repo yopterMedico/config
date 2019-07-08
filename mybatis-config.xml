@@ -32,6 +32,6 @@
             <package name="com.yhs.advice.mapper"/>
             <package name="com.yhs.catalog.mapper"/>
             <package name="com.yhs.health.tip.mapper"/>
-            <package name="com.yhs.user.query.mapper"/>
+            <package name="com.yhs.service.query.mapper"/>
     </mappers>
 </configuration>
