@@ -35,5 +35,6 @@
             <package name="com.yhs.questionary.mapper"/>
             <package name="com.yhs.service.query.mapper"/>
             <package name="com.yhs.user.query.mapper"/>
+            <package name="com.yhs.patient.query.mapper"/>
     </mappers>
 </configuration>
