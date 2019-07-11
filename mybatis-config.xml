@@ -37,6 +37,7 @@
             <package name="com.yhs.service.query.mapper"/>
             <package name="com.yhs.user.query.mapper"/>
             <package name="com.yhs.kin.mapper"/>
+            <package name="com.yhs.gender.mapper"/>
             <package name="com.yhs.gender.query.mapper"/>
     </mappers>
 </configuration>
