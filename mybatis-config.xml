@@ -41,5 +41,6 @@
             <package name="com.yhs.gender.mapper"/>
             <package name="com.yhs.gender.query.mapper"/>
             <package name="com.yhs.sentenceWelcome.mapper"/>
+            <package name="com.yhs.service.mapper"/>
     </mappers>
 </configuration>
